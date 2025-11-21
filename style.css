@@ -1,21 +1,21 @@
 :root {
-    --primary: #fc2651;
-    --primary-hover: #e91e47;
-    --primary-light: rgba(252, 38, 81, 0.1);
-    --primary-lighter: rgba(252, 38, 81, 0.05);
-    --accent: #8b5cf6;
+    --primary: #363a4f;
+    --primary-hover: #cff;
+    --primary-light: #494d64;
+    --primary-lighter: #5b6078;
+    --accent: #c6a0f6;
     --accent-light: rgba(139, 92, 246, 0.1);
-    --success: #10b981;
-    --warning: #f59e0b;
-    --text: #1a1a1a;
+    --success: #a6da95;
+    --warning: #eed49f;
+    --text: #cad3f5;
     --text-muted: #6b7280;
     --text-light: #9ca3af;
-    --bg: #ffffff;
-    --bg-secondary: #f8fafc;
-    --surface: #ffffff;
-    --surface-hover: #f1f5f9;
-    --border: #e2e8f0;
-    --border-light: #f1f5f9;
+    --bg: #24273a;
+    --bg-secondary: #b7bdf8;
+    --surface: #363a4f;
+    --surface-hover: #939ab7;
+    --border: #181926;
+    --border-light: #0f0f0f;
     --glass: rgba(255, 255, 255, 0.8);
     --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -27,17 +27,17 @@
     --radius-sm: 8px;
     --radius-lg: 16px;
     --radius-xl: 20px;
-    --gradient-primary: linear-gradient(135deg, #fc2651 0%, #e91e47 100%);
-    --gradient-accent: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
-    --gradient-surface: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    --gradient-primary: linear-gradient(135deg, #1e2030 0%, #24273a 100%);
+    --gradient-accent: linear-gradient(135deg, #c6a0f6 0%, #8aadf4 100%);
+    --gradient-surface: linear-gradient(135deg, #494d64 0%, #5b6078 100%);
 }
 
-.dark-mode {
-    --primary: #fc2651;
-    --primary-hover: #ff4d75;
+/*.dark-mode {
+    --primary: #cff;
+    --primary-hover: #eff;
     --primary-light: rgba(252, 38, 81, 0.15);
     --primary-lighter: rgba(252, 38, 81, 0.08);
-    --accent: #a855f7;
+    --accent: #f755c6;
     --accent-light: rgba(168, 85, 247, 0.15);
     --success: #34d399;
     --warning: #fbbf24;
@@ -60,7 +60,7 @@
     --gradient-primary: linear-gradient(135deg, #fc2651 0%, #ff4d75 100%);
     --gradient-accent: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
     --gradient-surface: linear-gradient(135deg, #1e293b 0%, #334155 100%);
-}
+}*/
 
 * {
     box-sizing: border-box;
