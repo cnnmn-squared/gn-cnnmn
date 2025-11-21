@@ -656,8 +656,8 @@ async function loadData(event) {
   reader.readAsText(file);
 }
 
-function darkMode() {
-  document.body.classList.toggle("dark-mode");
+function _cnnmn_toggle_latte() {
+  document.body.classList.toggle("_cnnmn_latte");
 }
 
 function cloakIcon(url) {
@@ -699,7 +699,7 @@ settings.addEventListener("click", () => {
   document.getElementById("popupTitle").textContent = "Settings";
   const popupBody = document.getElementById("popupBody");
   popupBody.innerHTML = `
-    <button id="settings-button" onclick="darkMode()">Toggle Dark Mode</button>
+    <button id="settings-button" onclick="_cnnmn_toggle_latte()">Toggle Dark Mode</button>
     <br><br>
     <button id="settings-button" onclick="tabCloak()">Tab Cloak</button>
     <br>
